@@ -1,5 +1,5 @@
 html {
-  height: 1390px;
+  height: 1990px;
 }
 
 body {
@@ -7,9 +7,12 @@ body {
   background-repeat: no-repeat;
 }
 
-h1 {
+a {
+  display: block;
   margin: 20px 20px;
   font-size: 24px;
+  text-decoration: none;
+  color: black;
 }
 
 p {
@@ -24,11 +27,15 @@ em {
 
 #ttop {
   position: fixed;
-  top: 250px;
+  top: 290px;
 }
 
 #tbottom {
   position: absolute;
+  display: flex;
   top: 1000px;
-  padding-bottom: 330px;
+  padding-bottom: 230px;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
