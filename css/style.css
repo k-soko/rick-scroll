@@ -1,5 +1,5 @@
 html {
-  height: 1990px;
+  height: 2550px;
 }
 
 body {
@@ -9,16 +9,21 @@ body {
 
 a {
   display: block;
+
   margin: 20px 20px;
-  font-size: 24px;
+
   text-decoration: none;
+
   color: black;
+
+  font-size: 24px;
 }
 
 p {
+  letter-spacing: 3px;
+
   font-family: arial;
   font-size: 60px;
-  letter-spacing: 3px;
 }
 
 em {
@@ -27,15 +32,19 @@ em {
 
 #ttop {
   position: fixed;
-  top: 290px;
+  top: 280px;
 }
 
 #tbottom {
-  position: absolute;
-  display: flex;
-  top: 1000px;
-  padding-bottom: 230px;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
+  position: sticky;
+  top: 280px;
+
+  overflow: hidden;
+
+  height: 70px;
+  margin-top: 1400px;
+}
+
+.hideme {
+  color: rgba(255, 0, 0, 0);
 }
